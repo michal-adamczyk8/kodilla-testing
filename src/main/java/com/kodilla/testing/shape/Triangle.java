@@ -10,10 +10,11 @@ public class Triangle implements Shape  {
     }
 
     public void getShapeName(){
-        System.out.println("something");
+        System.out.println("Triangle");
     }
 
     public void getField(){
-        System.out.println(100);
+        double field = (1/2*edgeLength*heigth);
+        System.out.println(field);
     }
 }

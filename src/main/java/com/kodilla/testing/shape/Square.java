@@ -8,11 +8,12 @@ public class Square implements Shape {
     }
 
     public void getShapeName(){
-        System.out.println("something");
+        System.out.println("Square");
     }
 
     public void getField(){
-        System.out.println(100);
+        double field = (edgeLength*edgeLength);
+        System.out.println(field);
     }
 }
 

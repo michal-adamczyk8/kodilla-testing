@@ -8,10 +8,12 @@ public class Circle implements Shape{
     }
 
     public void getShapeName(){
-        System.out.println("something");
+        System.out.println("Circle");
     }
 
+
     public void getField(){
-        System.out.println(100);
+        double field = (radius*radius);
+        System.out.println(field);
     }
 }
