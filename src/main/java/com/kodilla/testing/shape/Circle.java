@@ -7,13 +7,12 @@ public class Circle implements Shape{
         this.radius = radius;
     }
 
-    public void getShapeName(){
-        System.out.println("Circle");
+    public String getShapeName(){
+        return "Circle";
     }
 
-
-    public void getField(){
+    public double getField(){
         double field = (radius*radius);
-        System.out.println(field);
+        return field;
     }
 }

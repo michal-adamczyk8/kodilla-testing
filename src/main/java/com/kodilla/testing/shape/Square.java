@@ -7,13 +7,13 @@ public class Square implements Shape {
         this.edgeLength = edgeLength;
     }
 
-    public void getShapeName(){
-        System.out.println("Square");
+    public String getShapeName(){
+        return "Square";
     }
 
-    public void getField(){
+    public double getField(){
         double field = (edgeLength*edgeLength);
-        System.out.println(field);
+        return field;
     }
 }
 

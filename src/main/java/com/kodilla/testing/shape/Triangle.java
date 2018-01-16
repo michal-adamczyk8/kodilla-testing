@@ -9,12 +9,12 @@ public class Triangle implements Shape  {
         this.heigth = heigth;
     }
 
-    public void getShapeName(){
-        System.out.println("Triangle");
+    public String getShapeName(){
+        return "Triangle";
     }
 
-    public void getField(){
+    public double getField(){
         double field = (1/2*edgeLength*heigth);
-        System.out.println(field);
+        return field;
     }
 }
