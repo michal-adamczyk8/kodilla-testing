@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.statistics.CalculateStatsTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-01-19T23:05:08" hostname="Samsung" time="0.041">
+  <properties/>
+  <testcase name="testCalculateStatsNoComments" classname="com.kodilla.testing.statistics.CalculateStatsTestSuite" time="0.016"/>
+  <testcase name="testCalculateStatsWhenNoUsers" classname="com.kodilla.testing.statistics.CalculateStatsTestSuite" time="0.003"/>
+  <testcase name="testCalculateStatsWhenCommentsLessThanPosts" classname="com.kodilla.testing.statistics.CalculateStatsTestSuite" time="0.005"/>
+  <testcase name="testCalculateStatsPosts1000" classname="com.kodilla.testing.statistics.CalculateStatsTestSuite" time="0.003"/>
+  <testcase name="testCalculateStatsWhenPostsLessThanComments" classname="com.kodilla.testing.statistics.CalculateStatsTestSuite" time="0.003"/>
+  <testcase name="testWhenUsersEquals100" classname="com.kodilla.testing.statistics.CalculateStatsTestSuite" time="0.003"/>
+  <testcase name="testCalculateStatsNoPost" classname="com.kodilla.testing.statistics.CalculateStatsTestSuite" time="0.003"/>
+  <system-out><![CDATA[The tests have now started
+The test # 1 is being performed right now.
+Number of users: 50.0
+Number of posts: 1000.0
+Number of comments: 0.0
+Average number of posts per user:20.0
+Average number of comments per user: 0.0
+Average number of comments per post: 0.0
+The test # 2 is being performed right now.
+Number of users: 0.0
+Number of posts: 1000.0
+Number of comments: 1125.0
+Average number of posts per user:0.0
+Average number of comments per user: 0.0
+Average number of comments per post: 0.0
+The test # 3 is being performed right now.
+Number of users: 100.0
+Number of posts: 1000.0
+Number of comments: 25.0
+Average number of posts per user:10.0
+Average number of comments per user: 0.25
+Average number of comments per post: 0.025
+The test # 4 is being performed right now.
+Number of users: 50.0
+Number of posts: 1000.0
+Number of comments: 200000.0
+Average number of posts per user:20.0
+Average number of comments per user: 4000.0
+Average number of comments per post: 200.0
+The test # 5 is being performed right now.
+Number of users: 100.0
+Number of posts: 1000.0
+Number of comments: 1125.0
+Average number of posts per user:10.0
+Average number of comments per user: 11.25
+Average number of comments per post: 1.125
+The test # 6 is being performed right now.
+Number of users: 100.0
+Number of posts: 1.0
+Number of comments: 1.0
+Average number of posts per user:0.01
+Average number of comments per user: 0.01
+Average number of comments per post: 1.0
+The test # 7 is being performed right now.
+Number of users: 1.0
+Number of posts: 0.0
+Number of comments: 0.0
+Average number of posts per user:0.0
+Average number of comments per user: 0.0
+Average number of comments per post: 0.0
+The end of all tests.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
